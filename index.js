@@ -8,6 +8,8 @@ document.querySelector(".inputs button").addEventListener("click", ()=>{
     if (song !== "" ){
         let songArray = song.split("");
         playcomposition(songArray);
+    } else {
+        alert("Preencha o campo");
     }
 });
 
